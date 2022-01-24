@@ -1,0 +1,13 @@
+div.content{
+    background-color: #CCCCFF;
+    height: 550px;
+    width:450px;
+    border:solid;
+    float: left;
+    margin: 20px;
+    color: #333;
+    font-size: 15px;
+    text-align: left;
+    
+    }
+  

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Let's Spark the Light within us</title>
+        <link rel="stylesheet" href="course.css">
+        </head>
+        <body>
+            <div class="header">
+                <nav id="navbar">
+                    <ul id="menu">
+                        <li><a href="science.html">Science</a></li>
+                        <li><a href="CE.html">Computer Science</a></li>
+                        <li><a href="ME.html"> Mechanical Engineering</a></li>
+                        <li><a href="MBA.html">MBA</a></li>
+                        <li><a href="BSC.html">BSC</a></li> 
+                        <li><a href="BDS.html"  >BDS</a></li>
+                       </ul>
+                       </nav>
+                       </div> 
+                    
+
+                     
+             <body>
+                <script>
+    var navbar= document.getElementById("navbar");
+    var menu= document.getElementById("menu");
+    window.onscroll = function(){
+        if(window.pageYOffset >=menu.offsetTop)
+        {
+            navbar.classList.add("sticky");
+        }
+        else{
+            navbar.classList.remove("sticky");
+        }
+    }
+    </script>
+
+</body>
+</html> 
